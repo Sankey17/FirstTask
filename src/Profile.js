@@ -4,12 +4,13 @@ import { withRouter, BrowserRouter as Router,
     Route
 } from 'react-router-dom';
 import About from './About';
-import AnimationReact from './AnimationReact';
+// import AnimationReact from './AnimationReact';
 import Form from './Form';
 import Hero from './Hero';
 import Home from './Home';
 import Http_client from './Http_client';
 import Navbar from './Navbar';
+import React_Redux from './React_Redux';
 import StyleReact from './StyleReact';
 // import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -24,6 +25,7 @@ function Profile(){
           <Route exact path="/styleReact" component={StyleReact} />
           <Route exact path="/animationReact" component={Hero} />
           <Route exact path="/http_client" component={Http_client} />
+          <Route exact path="/redux" component={React_Redux} />
 
       </Router>
     </>
