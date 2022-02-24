@@ -33,6 +33,9 @@ export default function Navbar(props) {
                         <li className="nav-item ">
                             <Link className="nav-Link" to="/redux">Redux</Link>
                         </li>
+                        <li className="nav-item mx-3">
+                            <Link className="nav-Link" to="/redux_api">Redux_Api</Link>
+                        </li>
                     </ul>
                     <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

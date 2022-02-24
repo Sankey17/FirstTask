@@ -11,6 +11,8 @@ import Home from './Home';
 import Http_client from './Http_client';
 import Navbar from './Navbar';
 import React_Redux from './React_Redux';
+import React_Redux_api from './React_Redux_api';
+import React_Redux_Shop from './React_Redux_Shop';
 import StyleReact from './StyleReact';
 // import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -26,6 +28,8 @@ function Profile(){
           <Route exact path="/animationReact" component={Hero} />
           <Route exact path="/http_client" component={Http_client} />
           <Route exact path="/redux" component={React_Redux} />
+          <Route exact path="/redux_api" component={React_Redux_api} />
+          {/* <Route exact path="/redux_shop" component={React_Redux_Shop} /> */}
 
       </Router>
     </>
